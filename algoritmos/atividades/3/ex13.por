@@ -1,6 +1,6 @@
 programa {
 
-  /* Leia um número e exiba sua tabuada (de 1 a 10) usando o comando enquanto. */
+  /* Leia um número e exiba sua tabuada (de 1 a 10) usando o comando para. */
   inteiro numero, contador
 
   funcao inicio() {

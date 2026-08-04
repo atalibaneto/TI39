@@ -33,10 +33,9 @@ programa {
         } senao {
           escreva("A divisão entre os números é: ", num2 / num1)
         }
+        pare
       caso contrario:
-      escreva("Operador Inválido!")
+      escreva("\nOperador Inválido!")
     }
-  
-    
   }
 }

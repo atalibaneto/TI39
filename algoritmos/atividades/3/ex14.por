@@ -11,7 +11,7 @@ programa {
 
     para (contador = 1; contador <= n; contador++)
     {
-      soma = soma + contador
+      soma += contador // soma = soma + contador
     }
     escreva("A soma de 1 até ",n, " é: ", soma)
   }

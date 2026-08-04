@@ -7,12 +7,11 @@ programa {
 
     contador = 1
 
-    escreva("Digite um número para cálculo da tabuada")
+    escreva("Digite um número para cálculo da tabuada\n")
     leia(numero)
-
+    escreva("### Tabuada do ",numero," ###\n")
     enquanto (contador <= 10)
     {
-      escreva("###Tabuada do ",numero," ###\n")
       escreva(numero, " x ", contador, " = ", numero * contador, "\n")
       contador++ //contador = contador + 1
     }
