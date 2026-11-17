@@ -1,0 +1,28 @@
+h2{
+    color: green;
+    font-family: verdana;
+    font-size: 20px;
+
+}
+table {
+    /* comentário */
+    font-family: verdana;
+    border-collapse: collapse; /*Une as bordas das células*/
+    width: 100%;
+
+}
+ /* Estilização do cabeçalho da tabela */
+th{
+    background-color: rgb(70, 64, 228);  /* Cor de Fundo azul */
+    color:azure;  /* Cor do texto branca*/
+    text-align: center;  /* A linha o texto no centro */
+    border: 1px solid #000;/* Borda de 1 pixel */
+}
+/* Estilização das células de dados da tela*/
+td{
+    border: 1px solid ;/*Borda de 1 pixel*/
+}
+/* Altera a cor da linha ao passar o mouse*/
+tr:hover{
+    background-color: #ddd;
+}
