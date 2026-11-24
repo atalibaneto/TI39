@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #F2D583;
+    color: #4A3B32;
+    line-height: 1.6; /* Altura da linha */
+}
+/* ############# CABEÇALHO ############# */
+header {
+    background-color: #CC7038;
+    color: #FFF;
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 8px solid #6CA6A0;
+}
+header h1 {
+    font-size: 3.5em;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+}
+header h2 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: normal;
+}
+/* ############# PRINCIPAL ############# */
+main {
+    max-width: 900px; /* largura máxima */
+    margin: 40px auto;
+    padding: 0 20px;
+}
+section {
+    background-color: #FFF;
+    padding: 30px;
+    border-radius: 10px; /* borda arredondada */
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+img {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 100%;
+    border-radius: 8px;
+    border: 4px solid #6CA6A0;
+}
+p {
+    font-size: 1.1em;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+strong {
+    color: #E07B39;
+    font-size: 1.1em;
+}
+em {
+    color: #6CA6A0;
+    font-weight: bold;
+}
+mark {
+    background-color: #6CA6A0;
+    color: #FFF;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+section h2 {
+    color: #CC7038;
+    border-bottom: 2px dashed #6CA6A0; /* linha tracejada */
+    padding-bottom: 10px;
+    margin: 20px 0;
+}
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+ul li {
+    list-style: none;
+}
+ul li::before {
+    content: "\1F354";
+    margin-right: 10px;
+    margin-left: -25px;
+}
+del {
+    color: #999;
+}
+ins {
+    color: #E07B39;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgba(224, 123, 57, 0.1);
+    padding: 2px 5px;
+    border-radius: 4px;
+}
+/* ############# RODAPÉ ############# */
+footer {
+    background-color: #6CA6A0;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-top: 6px solid #CC7038;
+    font-weight: bold;
+}
+/* ############# BARRA DE NAVEGAÇÃO ############# */
+nav {
+    background-color: #6CA6A0;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+nav a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #CC7038;
+}
